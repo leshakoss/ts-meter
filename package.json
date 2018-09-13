@@ -1,0 +1,22 @@
+{
+  "name": "ts-meter",
+  "version": "0.0.1",
+  "description": "Detects the ratio of TypeScript/JavaScript code in a directory",
+  "main": "bin/ts-meter.js",
+  "author": "Lesha Koss <leshakostiuchenko@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leshakoss/ts-meter.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "glob": "^7.1.3",
+    "glob-promise": "^3.4.0",
+    "sloc": "^0.2.0"
+  },
+  "bin": {
+    "ts-meter": "bin/ts-meter.js"
+  }
+}
